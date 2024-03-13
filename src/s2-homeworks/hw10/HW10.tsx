@@ -15,11 +15,11 @@ import {loadingAC} from './bll/loadingReducer'
 * */
 
 const HW10 = () => {
-    // useSelector, useDispatch // пишет студент
+
     const isLoading = useSelector(loadingSelector)
     const dispatch = useDispatch()
 
-    const setLoading = () => { // пишет студент // показать крутилку на 1,5 секунд
+    const setLoading = () => {
         dispatch(loadingAC(true))
         setTimeout(() => {
             dispatch(loadingAC(false))
