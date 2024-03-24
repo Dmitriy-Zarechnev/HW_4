@@ -1,4 +1,4 @@
-type ThemeReducerActionType = { type: 'SET_THEME_ID', id: number }
+export type ThemeReducerActionType = { type: 'SET_THEME_ID', id: number }
 
 type InitStateType = {
     themeId: number
