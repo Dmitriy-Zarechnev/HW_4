@@ -27,7 +27,7 @@ const HW12 = () => {
 
     // взять ид темы из редакса
     const themeId = useSelector(themeSelector)
-
+    console.log(typeof themeId)
     const dispatch = useDispatch()
 
     const change = (id: number) => { // дописать функцию
