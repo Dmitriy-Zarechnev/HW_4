@@ -2,7 +2,7 @@ type ThemeReducerActionType = ReturnType<typeof changeThemeId>
 
 type InitStateType = typeof initState
 const initState = {
-    themeId: 1 as number
+    themeId: 1
 }
 
 export const themeReducer = (state: InitStateType = initState, action: ThemeReducerActionType): InitStateType => {
